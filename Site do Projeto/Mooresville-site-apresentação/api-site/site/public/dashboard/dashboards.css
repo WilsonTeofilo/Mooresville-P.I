@@ -9,11 +9,27 @@ html,body{
   height: 100%;
   font-family: 'Barlow', "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+a{
+  font-size: 15px;
+  background-color: transparent;
+  border: 0.5px white solid;
+  padding: 2px;
+  border-radius: 5px;
+  font-size: 13px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: .2s;
+  color: white;
+}a:hover{ 
+  background-color: #ff0000;
+  letter-spacing: 2px;
+}
+
 .container1{
   max-width: 1280px;
   margin: 0 auto;
   padding: 2%;
-  margin-top: -40px;
+  margin-top: -10px;
 }
 
 .clear{
@@ -81,15 +97,16 @@ header .menu ul li input[type="text"]{
   font-size: 36px;
   justify-content: center;
   align-items: center;
- background-image: url(fundo_login.jpg);
+ background-image: url(banner-dash.webp);
  border-bottom: black solid 2px;
+
 }
 
 .banner img {
   display: flex;
-
-  padding: 0;
+padding: 0;
   font-size: 36px;
+
 }
 
 .banner .container span {
@@ -284,5 +301,6 @@ section.content{
 }
 .footer .container {
   justify-content: center;
+  align-items: center;
 
 }
