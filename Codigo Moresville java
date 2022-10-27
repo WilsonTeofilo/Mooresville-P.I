@@ -1,0 +1,77 @@
+package com.mycompany.gameentrar;
+import java.util.Scanner;
+public class GameEntrar {
+    public static void main(String[] args) {  
+Scanner scan = new Scanner(System.in); 
+double vida = 100;
+double danoInicio = 5;
+double danoMorte = 100;
+double damage5 = vida - danoInicio;
+
+
+
+System.out.println("Insira seu nome");
+         String nome = scan.nextLine();
+         System.out.println("senhora misteriosa :");
+         System.out.print(nome); System.out.print ("?  "); System.out.print(  nome); System.out.print(" Dawson, sobrinho do Tyler Dawnson?  ");
+         System.out.println(" Disse uma voz rouca, com um forte e típico sotaque caipira do sul, me tirando do transe em que eu estava.");
+        
+         System.out.println(" (Quanto tempo eu tinha ficado parado ali encarando a porta?)");
+         System.out.print(nome); System.out.print(":");
+         System.out.println("- Sim, sou eu! ");
+         System.out.println(" Digo me virando, para encarar uma senhora, de aparentemente uns 65 anos, com um vestido preto bordado, que parecia uma obra da Guerra de Secessão. A senhora também segurava um gato preto em uma mão e uma carta selada na outra. ");
+          System.out.println("senhora misteriosa :");
+         System.out.println("- Prazer, Me chamo Joanna Smith. Moro nessa casa aqui em frente, é um prazer te conhecer garoto, na verdade, é um prazer conhecer qualquer parente do Tyler, ele costuma ser um homem tão solitário... ");
+        System.out.print(nome); System.out.print(":");
+         System.out.println(" - Pois é.... tio Tyler consegue ser uma pessoa bem retraída as vezes!. ");
+         System.out.println(" Digo eu, demonstrando uma intimidade inexistente.");
+         System.out.println("Joanna :");
+         System.out.println("- A anos que somos vizinhos e nunca vi ele conversar com ninguém, ou levar alguém a sua casa...  "); 
+         System.out.println(" Bom, imagino que você esteja cansado da viagem e não vou ficar te incomodando com minha conversa mole. Esse é o gato de Tyler, Apolo, e Tyler também deixou esta carta para você com algumas instruções...");
+         System.out.print(nome); System.out.print(":");
+        System.out.println("-Muito obrigado, Sra. Joanna! "); System.out.print("    Digo pegando a carta e começando a abrir o selo.");
+        System.out.println("Joanna:");
+        System.out.println("- ESPERA! "); System.out.print(" Gritou mudando completamente de expressão, aquela Aura amigável havia sumido.");
+        System.out.println("– Tyler me pediu para aconselhá-lo a abrir a carta só quando estivesse dentro de casa...");
+        System.out.println(" empurrou o gato preto em minhas mãos, virou suas costas e em um passo acelerado voltou para sua casa e bateu a porta sem dizer mais nada. ");
+        System.out.print(nome); System.out.print(":");
+        System.out.println(" (Tudo isso que acabou de acontecer foi muito estranho... aquela senhora que antes parecia tão amigável, subitamente mudou... sua expressão parecia de.... medo! ) ");
+        System.out.println("depois de me perder por mais alguns minutos em meus pensamentos, decido dar uma olhada em volta do velho terreno da casa. ");
+        System.out.println("Atrás da casa havia um jardim, com plantas que pareciam que não viam um Regador a séculos...");
+        System.out.println(" Enquanto estou olhando, ouço um barulho atrás de um dos arbustos, e enquanto me aproximo para ver o que era, sinto uma aflição imensa... parece que algo não está certo...");
+        System.out.println("Apollo:");
+        System.out.println("-!!!!!!!!! GHWIII MEEEEOOOWM!!!!");
+        System.out.print(nome); System.out.print(":");
+        System.out.println("minha alma quase sai do meu corpo, de tão grande susto que levei, eu estava tão desligado que até me esqueci que o bendito gato estava comigo. ");
+        System.out.println("*deseja mesmo assim investigar Arbusto ou deseja entrar na casa de tio tyler?*");
+        System.out.println(">digite 1 para investigar Arbusto<");
+        System.out.println("> digite 2 Para  dar meia volta e entrar na casa<");
+        int decisao1 = scan.nextInt();
+        if (decisao1 == 1){
+    
+            System.out.println(" se agacho na frente do arbustro,  coloco meu braço esquerdo dentro para ver se encontro algo");
+            System.out.println("PLAK");
+            System.out.println("você prendeu o dedo na ratoeira que ali estava e gritou de dor e  susto");
+            System.out.print("dano: ");System.out.println(   danoInicio ); 
+            System.out.print("total de vida restante:"); System.out.println(damage5);
+            System.out.print(nome); System.out.println(":");
+            System.out.println("-PUTA QUE PARIU MEU DEDO!!!");
+            System.out.println("após tirar a ratoeira de seu dedo, você anda até a entrada da casa resmungando e xingando. apollo segue atrás de você caminhando ");
+            System.out.println("entrando na casa, você fecha com pressa a porta e começa a ler a carta.");
+           System.out.println("carta:"); 
+           }
+        
+        if (decisao1 == 2){
+        
+            System.out.print(nome); System.out.println(" :"); System.out.println(" -vou mexer nisso nada sai fora, cidade de interior sai cobra até de dentro do meu bolso, vai saber que diabo tem ai, vou é ir ler a carta.");
+            System.out.println("diz resmugando pra sí mesmo");
+            System.out.println("você anda até a parte de frente  da casa, abre a porta e lhe depara com uma bela vista de entrada e alguns troféus de ciência");
+            System.out.print(nome); System.out.println("  :"); System.out.println("- oloco bixo, espero que a letra dele seja bonita igual a prateleira de trófeus. geralmente gente inteligente tem a letra feia");
+            System.out.println("você pega a carta de seu bolso e a abre para ler");
+            System.out.println("carta:");
+          
+        }
+        
+     
+    }
+}
