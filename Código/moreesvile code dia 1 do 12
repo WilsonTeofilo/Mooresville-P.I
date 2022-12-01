@@ -1,0 +1,244 @@
+
+package com.mycompany.mooresville;
+import java.util.concurrent.TimeUnit;
+import java.util.Scanner;
+ 
+
+public class Mooresville {
+
+    public static void main(String[] args) throws InterruptedException {
+        Scanner scan = new Scanner(System.in);
+        double vida = 100;
+        double danoInicio = 5;
+        double danoMorte = 100;
+        double damage5 = vida - danoInicio;
+        int temp_dialoglong = 7;
+        int temp_dialogshort = 3;
+        String start;
+        while (true) {
+
+            System.out.println("------------WELCOME TO MOORESVILLE-----------");
+            System.out.println("----------DIGITE START PARA COMEÇAR--------");
+            start = scan.nextLine();
+            if (start.equals("start")) {
+                System.out.println("""
+                                   Meu tio Tyler era uma das personalidades mais bizarras que se pode imaginar, mas nem sempre ele foi assim. 
+                                   Nós nunca fomos realmente muito próximos, porém ele sempre aparecia para ver minha vó. depois daquela porcaria que aconteceu com ele... ele sumiu. 
+                                   Minha v\u00f3 vivia dizendo:
+                                   Minha vó sempre o defendia.
+                                  
+                                   - Ele é um homem ocupado e reservado, não tem como vir visitar a gente, porém ele é um dos melhores cientistas deste país. - Dizia ela. 
+                                   Minha vó também vivia me contando histórias sobre ele: 
+                                   “Quando mais novo, seu tio Tyler era um homem muito estressado e mal conseguia um projeto aprovado na sua empresa, ainda bem que ele encontrou uma mulher boa para concertar ele. 
+                                   Suzana fez seu tio mudar por completo, isso foi ótimo, eu nunca o vi tão feliz na minha vida, depois dela ele também cresceu muito como cientista na empresa.” 
+                                   Em um churrasco quando eu tinha 9 anos eu percebi que tio Tyler tinha uma mania de ficar murmurando uma música, perguntei para ele que música era essa e me respondeu com um sorriso no rosto: 
+                                   
+                                  - oiiii garotão, essa música é que minha esposa fez quando completamos 1 ano de casados, fomos ao caribe. 
+                                   Na viagem, escutei ela no barco muitas vezes, essa música grudou na minha cabeça e agora vivo a murmurá-la até hoje, porque amo ela... tanto a música quanto minha Suzana. 
+                                   ......
+                                   Ele era tão feliz e sorridente com aquela mulher, eles estavam prestes a ter um filho quando aconteceu. 
+                                   Um certo dia, Suzana saiu de carro para fazer algumas compras de essênciais e um caminhoneiro bêbado bateu no carro dela. O bebê e ela morreram na hora. 
+                                   A última vez que vi meu tio Tyler foi no enterro de Suzana, ele chorava na frente do caixão e murmurava aquela mesma música. 
+                                   Após esse ocorrido ele ficou estranho....  
+                                   
+                                   Quando eu tinha 15 anos, tio Tyler mudou-se para o sul, e desde então tive poucas “notícias” sobre ele.
+                                   se é que se pode chamar algumas cartinhas de Feliz natal de notícias, já faz mais de 5 anos que não o vejo. 
+                                  Então você pode imaginar meu estado de surpresa em me encontrar dentro do meu carro, dirigindo em direção a Mooresville, uma cidadezinha pacata no norte do Alabama com incríveis 60 habitantes... 
+                                   Rumo a casa do meu tio Tyler.
+                                   Chegando ao endereço que me foi passado, me encontro parado em frente a enorme casa de 2 andares
+                                   que parecia ter saído de um seriado de comédia dos anos 60. 
+                                   
+                                   Tyler, que naquela altura já estava a 6 anos sem dar nenhum sinal de vida, me ligou numa manhã de segunda-feira e pediu-me que fosse até Mooresville;
+                                    ele teria que viajar a um congresso de ciências no Rio de Janeiro e não tinha mais ninguém que pudesse cuidar de seus “animais” enquanto ele estivesse fora.  
+                                Animais... Lembro de minha mãe dizer que ele odiava qualquer tipo de animal, o que será que o levou a mudar de ideia, e agora criar animais em sua casa, pensando bem...
+                                   Ele sequer citou qual tipo de animais ele tinha aqui, eu mal sei o que estou
+                                   fazendo aqui, onde raios estava com a cabeça de achar que isso seria um boa ideia, mas ele parecia estar realmente precisando de minha ajuda. )""");
+               
+                System.out.println("Insira seu nome");
+                String nome = scan.nextLine();
+                System.out.println("senhora misteriosa :");
+                System.out.print(nome + "? " + nome + " Dawson, sobrinho do Tyler Dawnson?  ");
+                System.out.println(" Disse uma voz rouca, com um forte e típico sotaque caipira do sul, me tirando do transe em que eu estava.");
+                TimeUnit.SECONDS.sleep(temp_dialogshort);
+                System.out.println(" (Quanto tempo eu tinha ficado parado ali, encarando a porta?)");
+                TimeUnit.SECONDS.sleep(temp_dialogshort);
+                System.out.println(nome + ":");
+                System.out.println("- Sim, sou eu! ");
+
+                System.out.println(" Digo me virando, para encarar uma senhora, de aparentemente uns 65 anos, com um vestido preto bordado, que parecia uma obra da Guerra de Secessão. A senhora também segurava um gato preto em uma mão e uma carta selada na outra. ");
+                TimeUnit.SECONDS.sleep(temp_dialoglong);
+                System.out.println("senhora misteriosa :");
+                System.out.println("- Prazer, Me chamo Joanna Smith. Moro nessa casa aqui em frente, é um prazer te conhecer garoto, na verdade, é um prazer conhecer qualquer parente do Tyler, ele costuma ser um homem tão solitário... ");
+                TimeUnit.SECONDS.sleep(temp_dialoglong);
+                System.out.println(nome + ":");
+                System.out.println(" - Pois é.... tio Tyler consegue ser uma pessoa bem retraída as vezes!. ");
+                System.out.println(" Digo eu, demonstrando uma intimidade inexistente.");
+                TimeUnit.SECONDS.sleep(temp_dialoglong);
+                System.out.println("Joanna:");
+                System.out.println("- A anos que somos vizinhos e nunca vi ele conversar com ninguém, ou levar alguém a sua casa...  ");
+                System.out.println(" Bom, imagino que você esteja cansado da viagem e não vou ficar te incomodando com minha conversa mole. Esse é o gato de Tyler, Apolo, e Tyler também deixou esta carta para você com algumas instruções...");
+                TimeUnit.SECONDS.sleep(temp_dialoglong);
+                System.out.print(nome + ":");
+                System.out.println("- Muito obrigado, Sra. Joanna! ");
+                System.out.println("Digo pegando a carta e começando a abrir o selo. ");
+                TimeUnit.SECONDS.sleep(temp_dialogshort);
+                System.out.println("Joanna:");
+                System.out.println("- ESPERA! ");
+                System.out.print(" Gritou mudando completamente de expressão, aquela Aura amigável havia sumido.");
+                TimeUnit.SECONDS.sleep(temp_dialogshort);
+                System.out.println("– Tyler me pediu para aconselhá-lo a abrir a carta só quando estivesse dentro de casa...");
+                System.out.println(" empurrou o gato preto em minhas mãos, virou suas costas e em um passo acelerado voltou para sua casa e bateu a porta sem dizer mais nada. ");
+                TimeUnit.SECONDS.sleep(temp_dialoglong);
+                System.out.print(nome + ":");
+                System.out.println(" (Tudo isso que acabou de acontecer foi muito estranho... aquela senhora que antes parecia tão amigável, subitamente mudou... sua expressão parecia de.... medo! ) ");
+                TimeUnit.SECONDS.sleep(temp_dialogshort);
+                System.out.println(">O que você quer fazer?<");
+                System.out.println(">Entrar na casa<");
+                System.out.println(">Investigar terreno<");
+                String investigar = scan.nextLine();
+
+                if (investigar.equals("Investigar terreno")) {
+                    System.out.println("depois de me perder por mais alguns minutos em meus pensamentos, decido dar uma olhada em volta do velho terreno da casa. ");
+                    TimeUnit.SECONDS.sleep(temp_dialogshort);
+                    System.out.println("Atrás da casa havia um jardim, com plantas que pareciam que não viam um Regador a séculos...");
+                    TimeUnit.SECONDS.sleep(temp_dialogshort);
+                    System.out.println(" Enquanto estou olhando, ouço um barulho atrás de um dos arbustos, e enquanto me aproximo para ver o que era, sinto uma aflição imensa... parece que algo não está certo...");
+                    TimeUnit.SECONDS.sleep(temp_dialoglong);
+                    System.out.println("Apollo:");
+                    System.out.println("-!!!!!!!!! GHWIII MEEEEOOOWM!!!!");
+                    TimeUnit.SECONDS.sleep(temp_dialogshort);
+                    System.out.print(nome + ":");
+                    System.out.println("minha alma quase sai do meu corpo, de tão grande susto que levei, eu estava tão desligado que até me esqueci que o bendito gato estava comigo. ");
+                    TimeUnit.SECONDS.sleep(temp_dialogshort);
+                    System.out.println(">O que você quer fazer?<");
+                    System.out.println(">Investigar arbusto<");
+                    System.out.println(">Voltar para a casa<");
+
+                    String arbusto = scan.nextLine();
+
+                    if (arbusto.equals("Investigar arbusto")) {
+
+                        System.out.println(" me agacho na frente do arbustro,  coloco meu braço esquerdo dentro para ver se encontro algo");
+                        TimeUnit.SECONDS.sleep(temp_dialogshort);
+                        System.out.println("PLAK");
+                        System.out.println("você prendeu o dedo na ratoeira que ali estava e gritou de dor e  susto");
+                        TimeUnit.SECONDS.sleep(temp_dialogshort);
+                        System.out.print("dano: ");
+                        System.out.println(danoInicio);
+                        System.out.print("total de vida restante:");
+                        System.out.println(damage5);
+                        System.out.print(nome);
+                        System.out.println(":");
+                        System.out.println("-PUTA QUE PARIU, MEU DEDO!!!");
+                        TimeUnit.SECONDS.sleep(temp_dialoglong);
+                        System.out.println("após tirar a ratoeira de seu dedo, você anda até a entrada da casa resmungando e xingando.");
+                        TimeUnit.SECONDS.sleep(temp_dialoglong);
+                        System.out.println("você entra na casa e fecha com pressa a porta, a dor excruciante em seu dedo ainda te atormenta");
+
+                    }
+                    if (arbusto.equals("Voltar para a casa")) {
+
+                        System.out.print(nome + ":");
+                        System.out.println(" - Melhor não mexer nisso, cidade de interior sai cobra até de dentro do bolso, vai saber que diabo tem ai,melhor entrar e ler a carta de uma vez.");
+                        System.out.println("diz resmugando pra sí mesmo");
+                        TimeUnit.SECONDS.sleep(temp_dialogshort);
+                        System.out.println("você anda até a parte de frente da casa e abre a porta");
+                        TimeUnit.SECONDS.sleep(temp_dialogshort);
+                    }
+
+                }
+                if (investigar.equals("Entrar na casa")) {
+                    System.out.print(nome + ":");
+                    System.out.println("- Melhor entrar de uma vez na casa, já perdi muito tempo aqui fora.");
+                    System.out.println("você diz, caminhando até a porta e abrindo-a.");
+                    TimeUnit.SECONDS.sleep(temp_dialogshort);
+                }
+                // if > explorar hall
+                System.out.println("O Hall da casa era imenso, com três portas que levavam a cômodos diferente, no teto, um lustre que provavelmente compraria o meu sedan velho.  ");
+                System.out.println(" no chão tinha um grande tapete persa, que se estendia até o pé de uma escada de aproximadamente 30 degraus, tudo que eu sabia sobre a profissão de meu tio, era que ele era um renomado cientista, mas eu realmente não fazia ideia de qual era sua área de atuação ");
+                System.out.println("bom, agora sei que a remuneração deve ser excelente.");
+                           System.out.println("volto a realidade quando então apollo saltou do meu colo e correu e subiu as escadas");
+                //fim do if do hall.
+                
+                //if subir as escadas
+     
+                System.out.println(" decido subir  para ir atras do gato e ver como era a parte de cima da casa.");
+                System.out.println("subindo as escadas escuto um barulho, me deparo com um rápido vulto passando em minha frente, fingo não ter visto nada.");
+                System.out.println("o corredor a minha frente  leva a 4 quartos diferentes, 3 portas simples de um lado e do outro, uma entrada grande com uma porta dupla, uma suíte master da casa. ");
+                System.out.println("decido me mover e sigo andando em frente, derrepente  escuto um barulho de batida, Logo percebo que está extremamente escuro no segundo andar.");
+                System.out.println("olho para meu relógio e vejo que ainda são 15:00. Logo começo a transpirar e sentir a estranha sensação de que não estou sozinho,  sou acometido de uma grande aflição");
+                System.out.println(" olho em volta e para meu alívio encontro um interruptor de luz, assim que o aciono, as luzes do corredor se acendem e instantaneamente aquela estranha sensação passa.");
+                System.out.println("eu nunca fui de acreditar no sobrenatural, mas cada minuto em que eu passava nessa casa, me fazia entrar em choque com minhas crenças pessoais.");
+                //fim if subir escadas
+               
+                //if investigar primeira porta
+                System.out.println("vou em rumo a primeira porta ,  após girar a maçaneta, tenho  acesso ao quarto, sinto uma mudança de temperatura incrível, o quarto era extremamente gelado");
+                System.out.println(" nele possuía uma porta que eu imagino levar ao banheiro; ");
+                System.out.println("Olho rapidamente para o closet que estava aberto e minha alma congela quando penso ter visto um par de olhos me encarando de dentro da escuridão que envolvia aquele closet...");
+                System.out.println(" Quando firmo meu olhar na direção em que pensei ter visto os olhos, não havia nada lá. Após isso, decido fechar a porta da suíte e verificar os outros quartos.");
+                //fim if investigar primeira porta.
+                
+                System.out.println("As duas portas mais ao fundo estavam trancadas, o que me levava ao primeiro quarto do corredor. minha última chance, nem morto eu dormiria naquela suíte.");
+               // if ultima porta
+                System.out.println("ando para ultima porta não aberta, giro a maçaneta, a porta se abre e dou de cara com um quarto humilde, que possuia uma cama, uma prateleira de vasos a cima da cama");
+                System.out.println("um armário pequeno e uma escrivaninha com uma cadeira. Coloco, finalmente, minha mochila no chão e vou em direção a janela na intenção de abri-la para aliviar um pouco do cheiro de mofo presente no quarto");
+                System.out.println("Quando chego a janela, olho para baixo, vejo Joanna, parada na calçada olhando para mim, ela não parecia ter expressão nenhuma em seu rosto.");
+                System.out.println("fiquei sem reação, porém só conseguia lhe encarar de volta, eu queria parar de encará-la, porém meus músculos não respondiam aos comandos, eu não conseguia me mover, estava completamente paralisado. ");
+                System.out.println(" Depois de intermináveis segundos parado ali, sem que nenhum de nós dois nos movessemos, Joanna simplesmente virou a cabeça como se ouvisse algo, e começou a caminhar na direção do suposto. ");
+                System.out.println("percebi que estou muito nervoso desde que cheguei e decido sentar na cama para respirar..");
+                System.out.println("ouço um barulho em cima de mim e logo então na tentativa de olhar pra cima minha vista e coberta e levo uma forte pancada na cabeça, sinto minha energia esvaecer e minha vista ficar escura.");
+                   //desmaiar e fim if ultima porta.
+                   //adicionar 20 de dano pois um vaso acabou de cair na cabeça do homi
+                
+                   //acordando
+                System.out.println("Acordei deitado no chão, primeiramente não reconheci o ambiente em que estava, olhei para meu relógio e eram 2:45 da manhã");
+                System.out.println(" eu estava no escuro e logo aquela aflição encontrou seu caminho de volta até mim. Quase entro em desespero completo quando percebo que estou dentro da suíte, no escuro total e acordado no meio da noite.");
+                System.out.println("Logo após ter essa realização, eu escuto uma voz.");
+  System.out.println("voz rouca misteriosa :");
+                System.out.print( "-faz muito  tempo não vejo  te vejo jovem  " +nome);
+                System.out.println("a voz retumbava de todos os cantos do quarto sem deixar pista de onde se originára.");
+                System.out.println(nome + ":");
+                System.out.println("- Q… Quem está aí? ");
+                System.out.println("respondo vacilante, porém sou acometido por nada além de silêncio. ");
+                System.out.println("eu sinto uma mão tocar meu ombro, agora com meus olhos acostumados com a escuridão, corro até a direção da porta e saio para o corredor.");
+                System.out.println(" este que estava iluminado, olho para trás, para dentro do quarto escuro e vejo apenas uma silhueta que não consigo definir o que era, me olhando e indo para trás até sumir na escuridão. Era como se a coisa não tivesse a forma...");
+                System.out.println("Quando me viro para o corredor, percebo uma peculiaridade. As portas dos demais quartos, que estavam trancadas, agora estavam abertas… abertas não, escancaradas.");
+                System.out.println("Me aproximo e entro no primeiro quarto.  Ele estava completamente destruído, os móveis virados de cabeça para baixo e no chão havia um lampião, então eu me abaixo e pego-o, nunca se sabe quando vai precisar...");
+                //ler carta:
+                System.out.println("ao agachar a carta de tio tyler cai de meu bolso, pego ela rapidamente do chão e começo a ler.");
+                
+                
+                System.out.println("carta:");
+                System.out.println("“ Olá, garotão. Espero que esteja tudo bem. Sei que tenho sido muito ausente nos últimos anos e gostaria que as coisas tivessem sido diferentes, mas não posso mudar o que já passou.");
+                System.out.println(" Gostaria que houvesse outro jeito, um jeito em que eu não precisasse te envolver nisto, porém, o avanço científico que proporcionará, está acima de qualquer vínculo entre nós. Espero que me perdoe. ");
+                System.out.println(" Voltarei dentro de 3 dias, uma vez dentro da casa, você não poderá sair mais. Não se preocupe, na dispensa tem tudo que você vai precisar nesses tempo. Se você quiser sobreviver, precisará seguir estas regras abaixo:");
+                System.out.println(">Sempre que andar pela casa, garanta que você tenha uma lanterna, quedas de e luz são comuns por aqui. ");
+                System.out.println(">Não fique no escuro total por mais de 2 minutos, quando dormir deixe um abajur ligado e garanta que não vai acordar no meio da noite, caso acorde, não abra os olhos.");
+                System.out.println("> Caso tenha uma queda de luz e sua lanterna não funcione, corra para dentro do banheiro da suíte master no segundo andar, eles não podem entrar lá.");
+                System.out.println("> Durma no banheiro nessa noite, pela manhã, tudo deve estar mais tranquilo.");
+                System.out.println(" caso você ouça um suspiro profundo e passos, espere até que os passos fiquem distantes.");
+                System.out.println(">Por fim, não abra a porta na cozinha que dá ao porão, ela deve permanecer fechada todo tempo, caso em qualquer um dos dias você a veja aberta, entre no banheiro   e fique lá até eu voltar. ");
+                System.out.println(">NÃO DURMA NA SUITE MASTER.");
+                System.out.println("Seguindo essas regras, tudo deve ficar bem. Nos falamos na minha volta. Boa sorte!”");
+                
+                System.out.println("eu estou tão assustado que não sei se ele escreveu isso como forma de piada ou isso realmente está acontecendo....");
+                System.out.println("uma mão acabou de tocar meu ombro e acabei de escutar uma voz do além, tudo estranho desde que cheguei, não vou arriscar, vou seguir as regras, mesmo que nada disso faça sentido.");
+               //seguir para outro quarto e ler a carta na mesa:
+                System.out.println("levanto e vou em rumo a outro quarto.");
+                System.out.println("entrando no outro quarto, vejo que na verdade é um escritório, com diversos livros e troféus científicos. No meio do escritório uma bela mesa de madeira maciça servia de descanso para um caderno aberto.");
+                System.out.println("ento-me na Grande poltrona para ler do que se de trata.");
+                System.out.println("Carta:");
+                System.out.println("“ Tantas tentativas e nada… ");
+                System.out.println("cheguei tão perto com o 61°, mas ainda falta algo para que o experimento fique perfeito! ");
+                System.out.println("cerébro jovem e sangue fresco... e esse sangue precisa ser compatível com o meu, afim de que ela possa me reconhecer.");
+                System.out.println(". Eu não deveria fazer isso, mas acredito que essa seja a única solução. Espero que Deus me perdoe por isso, ou que pelo menos o inferno não seja tão ruim.”.");
+                
+                
+                
+                
+                
+                
+            }
+        }
+    }
+}
